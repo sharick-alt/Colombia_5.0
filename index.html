@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Colombia 5.0 — Sitio Informativo</title>
+  <meta name="description" content="Sitio web informativo bilingüe sobre el evento tecnológico Colombia 5.0. Conferencias, glosario técnico y reflexión ética." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ══ NAV ══ -->
+  <nav>
+    <a href="#home" class="nav-logo">COL<span>5.0</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Inicio</a></li>
+      <li><a href="#conferences">Conferencias</a></li>
+      <li><a href="#glossary">Glossary</a></li>
+      <li><a href="#ethics">Ética</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menú">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ══ HERO ══ -->
+  <section id="home">
+    <div class="hero-grid"></div>
+    <div class="hero-glow"></div>
+    <div class="hero-content">
+      <div class="hero-tag">// Evento Tecnológico · Bogotá, Colombia</div>
+      <h1 class="hero-title">COLOMBIA<br><span class="accent">5.0</span></h1>
+      <div class="hero-version">TECH · INNOVACIÓN · FUTURO</div>
+      <p class="hero-sub">
+        Sitio web informativo sobre las conferencias, tendencias y reflexiones del evento tecnológico más importante del país.
+        Documentado bilingüemente desde SENA — Centro de Manufactura en Textil y Cuero.
+      </p>
+      <p class="hero-sub-en">
+        Bilingual informational website about the most important tech event in Colombia, documenting key talks, technical vocabulary, and ethical reflections on enterprise technology.
+      </p>
+      <a href="#conferences" class="btn-primary">Ver Conferencias →</a>
+    </div>
+  </section>
+
+  <!-- ══ CONFERENCES ══ -->
+  <section id="conferences">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">// 02 · Conferencias</div>
+        <h2 class="section-title">CHARLAS <span class="accent">DESTACADAS</span></h2>
+        <div class="section-line"></div>
+      </div>
+
+      <!-- ── CONFERENCIA 1 ── -->
+      <article class="conference-card">
+        <span class="conf-number">01</span>
+        <div class="conf-badge">Taller · Asignada</div>
+        <h3 class="conf-title">Game UI Systems: De Pantallas Bonitas a Interfaces que Funcionan</h3>
+        <p class="conf-speaker">Andrés Felipe Pisso Tobar</p>
+        <p class="conf-role">Lead UI Designer — Teravision Games</p>
+
+        <p class="conf-topic-label">Tema Principal</p>
+        <p class="conf-topic-value">Diseño de sistemas de interfaz de usuario para videojuegos: accesibilidad, sistemas de diseño y toma de decisiones efectivas en equipos de desarrollo.</p>
+
+        <div class="bilingual">
+          <div class="lang-block es">
+            <div class="lang-flag">🇨🇴 Español</div>
+            <p>
+              Andrés Felipe Pisso Tobar, Lead UI Designer de Teravision Games, presentó un taller práctico
+              orientado a construir una base reutilizable de UI para videojuegos en Figma. La sesión partió
+              de un concepto clave: una interfaz no debe ser solo visualmente atractiva, sino funcional y
+              comunicativa.
+            </p>
+            <br>
+            <p>
+              El conferencista explicó cómo definir una notificación de pantalla en tres estados diferentes
+              (inactivo, activo y de error), mostrando cómo cada estado transmite información clara al jugador
+              sin interrumpir la experiencia. Combinó principios de accesibilidad, pensamiento de producto y
+              sistemas de diseño con el objetivo de reducir la fricción del usuario, aportar claridad visual
+              y ayudar a los equipos de desarrollo a tomar decisiones de diseño mucho más efectivas y consistentes.
+            </p>
+            <br>
+            <p>
+              El taller incluyó una demostración en vivo donde los asistentes podían acceder al archivo de
+              Figma mediante el enlace <em>https://bit.ly/col50gameui</em>, clonar el archivo y editarlo en tiempo
+              real junto con el instructor. Esta metodología práctica permitió entender cómo un sistema de diseño
+              bien estructurado acelera la producción y mejora la comunicación entre diseñadores y desarrolladores.
+            </p>
+          </div>
+          <div class="lang-block en">
+            <div class="lang-flag">🇺🇸 English</div>
+            <p>
+              Andrés Felipe Pisso Tobar, Lead UI Designer at Teravision Games, delivered a hands-on workshop
+              focused on building a reusable UI design system for video games using Figma. The session centered
+              on a key concept: an interface should not merely look attractive — it must be functional and communicative.
+            </p>
+            <br>
+            <p>
+              The speaker demonstrated how to define an on-screen notification across three distinct states
+              (inactive, active, and error), showing how each state conveys clear information to the player
+              without disrupting the game experience. He combined accessibility principles, product thinking,
+              and design systems to reduce user friction, provide visual clarity, and help development teams
+              make more effective and consistent design decisions.
+            </p>
+            <br>
+            <p>
+              The workshop included a live demonstration where attendees could access the Figma file via
+              <em>https://bit.ly/col50gameui</em>, clone it, and edit it in real time alongside the instructor.
+              This hands-on methodology illustrated how a well-structured design system accelerates production
+              and improves communication between designers and developers.
+            </p>
+          </div>
+        </div>
+
+        <div class="keywords">
+          <span class="kw-label">// Palabras clave</span>
+          <span class="keyword">Game UI</span>
+          <span class="keyword">Design System</span>
+          <span class="keyword">Figma</span>
+          <span class="keyword">Accesibilidad</span>
+          <span class="keyword">UX</span>
+          <span class="keyword">Prototipado</span>
+          <span class="keyword">Videojuegos</span>
+          <span class="keyword">UI States</span>
+          <span class="keyword">User Friction</span>
+          <span class="keyword">Teravision</span>
+        </div>
+
+        <div class="media-section">
+          <p class="media-label">// Video del taller</p>
+          <video controls preload="metadata" style="width:100%;max-width:720px;display:block;border:1px solid var(--border);background:#000;">
+            <source src="media/conf1_video.mp4" type="video/mp4" />
+            Tu navegador no soporta reproducción de video.
+          </video>
+        </div>
+
+        <div class="media-section" style="margin-top:1.5rem;">
+          <p class="media-label">// Galería fotográfica</p>
+          <div class="gallery">
+            <img src="img/conf1_1.jpg" alt="Presentación Game UI Systems - diapositiva de construcción de mini base" loading="lazy" />
+            <img src="img/conf1_2.jpg" alt="Andrés Pisso presentando en Colombia 5.0 - enlace Figma en pantalla" loading="lazy" />
+            <img src="img/conf1_3.jpg" alt="Slide inicial de Game UI Systems - De pantallas bonitas a interfaces que funcionan" loading="lazy" />
+            <img src="img/conf1_4.jpg" alt="Pantalla con QR code y enlace https://bit.ly/col50gameui" loading="lazy" />
+            <img src="img/conf1_5.jpg" alt="Andrés Felipe Pisso Tobar - Lead UI Designer Teravision Games presentación de perfil" loading="lazy" />
+          </div>
+        </div>
+      </article>
+
+      <!-- ── CONFERENCIA 2 ── -->
+      <article class="conference-card">
+        <span class="conf-number">02</span>
+        <div class="conf-badge">Conferencia · Selección libre</div>
+        <h3 class="conf-title">ILIA × CENIA: Mapeando y Construyendo la IA en LAC</h3>
+        <p class="conf-speaker">Antonia Moreno</p>
+        <p class="conf-role">Jefa de Incidencia Pública — CENIA, Centro Nacional de Inteligencia Artificial de Chile</p>
+
+        <p class="conf-topic-label">Tema Principal</p>
+        <p class="conf-topic-value">Impacto de la Inteligencia Artificial Generativa en el mercado laboral latinoamericano. Análisis de 100 empleos y 200.000 tareas en Chile.</p>
+
+        <div class="bilingual">
+          <div class="lang-block es">
+            <div class="lang-flag">🇨🇴 Español</div>
+            <p>
+              Antonia Moreno, Jefa de Incidencia Pública del Centro Nacional de Inteligencia Artificial de Chile
+              (CENIA), presentó los resultados de un estudio pionero realizado en colaboración con SOFOFA Capital
+              Humano, SENCE, académicos de la Universidad de Stanford y el Ministerio del Trabajo de Chile.
+            </p>
+            <br>
+            <p>
+              La investigación analizó el impacto de la Inteligencia Artificial Generativa (IAGen) sobre los 100
+              empleos más comunes en Chile, que representan casi 6 millones de personas y el 62% de la fuerza
+              laboral chilena. A través de la evaluación detallada de más de 200.000 tareas, el estudio encontró
+              que 4,7 millones de trabajadores pueden acelerar en al menos un 30% las tareas que desempeñan
+              mediante el uso de herramientas de IAGen — lo que equivale al 50% de la fuerza laboral mejorando
+              significativamente su productividad.
+            </p>
+            <br>
+            <p>
+              La conferencia ofreció datos valiosos sobre cómo la IA Generativa está transformando el mercado
+              laboral, destacando tanto las oportunidades de productividad como los desafíos para trabajadores,
+              empresas y el sector público en la adopción responsable de esta tecnología.
+            </p>
+          </div>
+          <div class="lang-block en">
+            <div class="lang-flag">🇺🇸 English</div>
+            <p>
+              Antonia Moreno, Head of Public Policy at Chile's National Center for Artificial Intelligence (CENIA),
+              presented findings from a groundbreaking study conducted in collaboration with SOFOFA Capital Humano,
+              SENCE, researchers from Stanford University, and Chile's Ministry of Labor.
+            </p>
+            <br>
+            <p>
+              The research analyzed the impact of Generative Artificial Intelligence (GenAI) on the 100 most
+              common jobs in Chile — representing nearly 6 million workers and 62% of the Chilean labor force.
+              Through a detailed evaluation of over 200,000 tasks, the study found that 4.7 million workers can
+              accelerate at least 30% of their daily tasks using GenAI tools, meaning 50% of the labor force
+              could significantly improve their productivity through AI adoption.
+            </p>
+            <br>
+            <p>
+              The conference offered valuable insights on how Generative AI is reshaping the labor market,
+              highlighting both productivity opportunities and the challenges that workers, companies, and the
+              public sector face in responsibly adopting this technology across Latin America.
+            </p>
+          </div>
+        </div>
+
+        <div class="keywords">
+          <span class="kw-label">// Palabras clave</span>
+          <span class="keyword">IAGen</span>
+          <span class="keyword">GenAI</span>
+          <span class="keyword">CENIA</span>
+          <span class="keyword">Mercado Laboral</span>
+          <span class="keyword">Productividad</span>
+          <span class="keyword">LAC</span>
+          <span class="keyword">Stanford</span>
+          <span class="keyword">Automatización</span>
+          <span class="keyword">Incidencia Pública</span>
+          <span class="keyword">Transformación Digital</span>
+        </div>
+
+        <div class="media-section" style="margin-top:1.5rem;">
+          <p class="media-label">// Diapositivas de la conferencia</p>
+          <div class="gallery" style="grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));">
+            <img src="img/conf2_1.png" alt="Objetivos de la conferencia CENIA - posibles impactos de la IA" loading="lazy" style="aspect-ratio:16/9;object-fit:cover;" />
+            <img src="img/conf2_2.png" alt="¿Qué hicimos? - Metodología del estudio CENIA sobre IAGen" loading="lazy" style="aspect-ratio:16/9;object-fit:cover;" />
+            <img src="img/conf2_3.png" alt="Diagnóstico basado en datos de Chile - impacto IAGen en tareas" loading="lazy" style="aspect-ratio:16/9;object-fit:cover;" />
+            <img src="img/conf2_4.png" alt="Estudio de aceleración de ocupaciones - impacto IA GEN en tareas" loading="lazy" style="aspect-ratio:16/9;object-fit:cover;" />
+            <img src="img/conf2_5.png" alt="¿Cómo se mide aceleración por IA GEN? - identificar 100 ocupaciones CASEN 2022" loading="lazy" style="aspect-ratio:16/9;object-fit:cover;" />
+            <img src="img/conf2_6.png" alt="¿Cómo se mide aceleración por IA GEN? - De ocupaciones a tareas, Workhelix contadores 23 tareas" loading="lazy" style="aspect-ratio:16/9;object-fit:cover;" />
+            <img src="img/conf2_7.png" alt="¿Cómo se mide aceleración por IA GEN? - E1 puntajes cercanos a 1, E2 puntajes cercanos a 0.5" loading="lazy" style="aspect-ratio:16/9;object-fit:cover;" />
+            <img src="img/conf2_8.jpg" alt="Antonia Moreno presentando CENIA - Centro Nacional de Inteligencia Artificial en Colombia 5.0" loading="lazy" style="aspect-ratio:16/9;object-fit:cover;" />
+            <img src="img/conf2_9.jpg" alt="Alianzas y patrocinadores del estudio CENIA - Google, AWS, BID, UNESCO, LinkedIn, GitHub y más" loading="lazy" style="aspect-ratio:16/9;object-fit:cover;" />
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ══ GLOSSARY ══ -->
+  <section id="glossary">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">// 03 · Technical Vocabulary</div>
+        <h2 class="section-title">TECHNICAL <span class="accent">GLOSSARY</span></h2>
+        <div class="section-line"></div>
+      </div>
+
+      <input type="text" id="glossarySearch" class="glossary-search" placeholder="Search a term..." autocomplete="off" />
+
+      <table class="glossary-table" role="table">
+        <thead>
+          <tr>
+            <th>English</th>
+            <th>Español</th>
+            <th>Definition</th>
+          </tr>
+        </thead>
+        <tbody id="glossaryBody">
+          <tr><td>Artificial Intelligence</td><td>Inteligencia Artificial</td><td>Technology that enables machines to simulate human reasoning and learning.</td></tr>
+          <tr><td>Generative AI</td><td>IA Generativa</td><td>AI capable of creating new content such as text, images, code, or audio.</td></tr>
+          <tr><td>Design System</td><td>Sistema de Diseño</td><td>A reusable collection of components and standards that guide product design.</td></tr>
+          <tr><td>User Interface (UI)</td><td>Interfaz de Usuario</td><td>The visual elements through which a user interacts with a product or system.</td></tr>
+          <tr><td>User Experience (UX)</td><td>Experiencia de Usuario</td><td>The overall experience a person has when interacting with a product or service.</td></tr>
+          <tr><td>Prototype</td><td>Prototipo</td><td>An early model of a product built to test concepts and user flows.</td></tr>
+          <tr><td>Wireframe</td><td>Esquema de pantalla</td><td>A low-fidelity visual guide representing the structure of a digital interface.</td></tr>
+          <tr><td>Component</td><td>Componente</td><td>A reusable, self-contained UI element like a button, card, or form field.</td></tr>
+          <tr><td>Accessibility</td><td>Accesibilidad</td><td>The practice of designing products usable by people with diverse abilities.</td></tr>
+          <tr><td>Responsive Design</td><td>Diseño Responsivo</td><td>A web design approach that adapts layout to different screen sizes and devices.</td></tr>
+          <tr><td>Labor Market</td><td>Mercado Laboral</td><td>The marketplace where workers and employers interact for employment.</td></tr>
+          <tr><td>Automation</td><td>Automatización</td><td>The use of technology to perform tasks with minimal human intervention.</td></tr>
+          <tr><td>Productivity</td><td>Productividad</td><td>The efficiency with which tasks or outputs are completed per unit of input.</td></tr>
+          <tr><td>Machine Learning</td><td>Aprendizaje Automático</td><td>A subset of AI where systems learn from data to improve performance over time.</td></tr>
+          <tr><td>Deep Learning</td><td>Aprendizaje Profundo</td><td>ML technique using neural networks with many layers to process complex data.</td></tr>
+          <tr><td>Natural Language Processing</td><td>Procesamiento del Lenguaje Natural</td><td>AI branch enabling computers to understand and generate human language.</td></tr>
+          <tr><td>Cloud Computing</td><td>Computación en la Nube</td><td>Delivery of computing services over the internet on a pay-as-you-go model.</td></tr>
+          <tr><td>API</td><td>Interfaz de Programación de Aplicaciones</td><td>A set of rules allowing different software systems to communicate.</td></tr>
+          <tr><td>Figma</td><td>Figma</td><td>A cloud-based design and prototyping tool widely used by UI/UX designers.</td></tr>
+          <tr><td>Friction (UX)</td><td>Fricción (UX)</td><td>Any obstacle that makes it harder for a user to complete a desired action.</td></tr>
+          <tr><td>Data Ethics</td><td>Ética de Datos</td><td>Principles governing the responsible collection, use, and sharing of data.</td></tr>
+          <tr><td>Digital Transformation</td><td>Transformación Digital</td><td>Integration of digital technology into all areas of a business or society.</td></tr>
+          <tr><td>Algorithm</td><td>Algoritmo</td><td>A step-by-step set of instructions for solving a problem or completing a task.</td></tr>
+          <tr><td>Big Data</td><td>Macrodatos</td><td>Extremely large datasets that require specialized tools to process and analyze.</td></tr>
+          <tr><td>Prompt Engineering</td><td>Ingeniería de Prompts</td><td>The practice of crafting inputs to guide AI language models toward desired outputs.</td></tr>
+          <tr><td>Upskilling</td><td>Mejora de competencias</td><td>Training workers to develop new skills required by evolving technology.</td></tr>
+          <tr><td>Innovation</td><td>Innovación</td><td>The introduction of new ideas, methods, or products that create value.</td></tr>
+          <tr><td>Startup</td><td>Empresa emergente</td><td>A newly established business with high growth potential, often technology-based.</td></tr>
+          <tr><td>Scalability</td><td>Escalabilidad</td><td>A system's ability to handle increased load or grow without losing performance.</td></tr>
+          <tr><td>Open Source</td><td>Código Abierto</td><td>Software whose source code is publicly available for anyone to use or modify.</td></tr>
+          <tr><td>Iteration</td><td>Iteración</td><td>The process of repeating a cycle of improvement, testing, and refinement.</td></tr>
+          <tr><td>Tech Ecosystem</td><td>Ecosistema Tecnológico</td><td>The network of companies, communities, and resources that support technology development.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ══ ETHICS ══ -->
+  <section id="ethics">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">// 04 · Reflexión Final</div>
+        <h2 class="section-title">ÉTICA EN LA <span class="accent">TECNOLOGÍA</span></h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="ethics-grid">
+        <div class="ethics-card">
+          <span class="ethics-icon">◈</span>
+          <h3>Inteligencia Artificial</h3>
+          <p>La IA debe diseñarse con principios de transparencia y equidad. Los algoritmos que toman decisiones que afectan a las personas deben ser auditables, explicables y libres de sesgos discriminatorios.</p>
+        </div>
+        <div class="ethics-card">
+          <span class="ethics-icon">◈</span>
+          <h3>Uso Responsable de Datos</h3>
+          <p>Los datos personales son un bien valioso. Las empresas tienen la responsabilidad de recolectarlos solo con consentimiento informado, protegerlos con estándares rigurosos y nunca usarlos para fines que dañen a las personas.</p>
+        </div>
+        <div class="ethics-card">
+          <span class="ethics-icon">◈</span>
+          <h3>Automatización e Impacto Social</h3>
+          <p>El estudio presentado por CENIA demuestra que la IAGen puede transformar millones de empleos. La responsabilidad ética exige que esta transición ocurra con programas de reentrenamiento y redes de protección social.</p>
+        </div>
+        <div class="ethics-card">
+          <span class="ethics-icon">◈</span>
+          <h3>Responsabilidad Profesional</h3>
+          <p>Como futuros desarrolladores de software, tenemos la obligación de construir sistemas que respeten la dignidad humana, cumplan estándares de seguridad y prioricen el bienestar colectivo sobre la ganancia individual.</p>
+        </div>
+      </div>
+
+      <div class="ethics-reflection">
+        <h3>// Reflexión: ¿Cómo se implementa la ética en la tecnología empresarial?</h3>
+        <p>
+          Colombia 5.0 nos demostró que la tecnología no es neutral. Cada línea de código, cada sistema de UI, cada modelo de IA lleva consigo decisiones que impactan a personas reales. La ética tecnológica no es una capa opcional que se agrega al final del desarrollo; es una práctica continua que debe integrarse desde el diseño inicial.
+        </p>
+        <p>
+          La conferencia de Andrés Pisso sobre Game UI Systems mostró cómo el diseño accesible no solo mejora la experiencia de usuario, sino que incluye a personas con capacidades diversas. El trabajo de Antonia Moreno y CENIA reveló que la IAGen tiene el potencial de aumentar la productividad del 50% de la fuerza laboral latinoamericana — pero ese poder conlleva una responsabilidad enorme: garantizar que los beneficios sean distribuidos de manera justa y que los trabajadores desplazados tengan oportunidades reales de adaptación.
+        </p>
+        <p>
+          En el desarrollo de software, implementar la ética significa adoptar prácticas como el diseño centrado en el usuario, la privacidad por defecto, la revisión constante de sesgos en los datos, y la comunicación transparente con las comunidades afectadas. Colombia 5.0 nos recordó que construir tecnología con propósito es la responsabilidad fundamental de nuestra generación.
+        </p>
+        <p style="color: #555; font-size: 0.82rem; margin-top: 1.5rem; font-family: 'Share Tech Mono', monospace; letter-spacing: 1px;">
+          — SENA · Centro de Manufactura en Textil y Cuero · Regional Distrito Capital · 2025
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ FOOTER ══ -->
+  <footer>
+    <p>COLOMBIA <span>5.0</span> · Sitio Web Informativo Bilingüe · SENA Centro de Manufactura en Textil y Cuero</p>
+    <p style="margin-top: 0.5rem; color: #222;">Desarrollado con HTML5 · CSS3 · JavaScript</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
